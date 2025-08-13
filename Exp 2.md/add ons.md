@@ -26,4 +26,5 @@ validation_data=(X_test, y_test))
 
 OUTPUT:
 
-https://github.com/student3020srm-design/Deep-learning/issues/4#issue-3316887109
+<img width="1075" height="442" alt="Screenshot 2025-08-13 102533" src="https://github.com/user-attachments/assets/5402a665-250f-4c4f-9d6c-dceaa03df8e2" />
+
