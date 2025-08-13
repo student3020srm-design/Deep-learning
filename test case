@@ -1,0 +1,13 @@
+CODE:
+inputs = [[0, 0], [0, 1], [1, 0], [1, 1]]
+expected = [0, 1, 1, 0]
+
+print("XOR Problem Test:")
+for x, y in zip(inputs, expected):
+    print(f"Input: {x}, Expected: {y}")
+
+
+
+
+output:
+https://github.com/student3020srm-design/Deep-learning/issues/1#issue-3316856818
