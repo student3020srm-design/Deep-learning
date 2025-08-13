@@ -28,3 +28,6 @@ print("\nPerceptron Prediction Test:")
 for x in inputs:
     pred = perceptron_predict(x, weights, bias)
     print(f"Input: {x}, Perceptron Output: {pred}")
+
+OUTPUT:
+https://github.com/student3020srm-design/Deep-learning/issues/2#issue-3316865080
