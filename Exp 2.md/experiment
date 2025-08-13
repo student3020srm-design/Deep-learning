@@ -36,4 +36,5 @@ predicted_label = np.argmax(prediction)
 print(f"Predicted label: {predicted_label}")
 
 OUTPUT:
+https://github.com/student3020srm-design/Deep-learning/issues/3#issue-3316882536
 
