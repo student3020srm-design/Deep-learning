@@ -8,3 +8,4 @@ for x, y in zip(inputs, expected):
     print(f"Input: {x}, Expected: {y}")
 
 OUTPUT:
+
