@@ -8,8 +8,6 @@ print("XOR Problem Test:")
 for x, y in zip(inputs, expected):
     print(f"Input: {x}, Expected: {y}")
 
-OUTPUT:
-https://github.com/student3020srm-design/Deep-learning/issues/1#issue-3316856818
 
 
 TEST CASE 2:
