@@ -23,7 +23,4 @@ plt.show()
 
 
 Output:
-Predictions: [0 0 0 0]
-/tmp/ipython-input-3106476439.py:17: RuntimeWarning: invalid value encountered in divide
-  y_values = -(clf.coef_[0][0]*np.array(x_values) + clf.intercept_)/clf.coef_[0][1]
-<img width="547" height="435" alt="Image" src="https://github.com/user-attachments/assets/3d16b945-0ea4-4d42-9f0a-dddcbdbf4516" />
+<img width="653" height="490" alt="Screenshot 2025-08-06 112152" src="https://github.com/user-attachments/assets/6e9dd005-bbac-4dd3-9df9-c2cb6150204c" />
