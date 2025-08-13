@@ -6,15 +6,15 @@ from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense 
 from keras.utils import to_categorical 
 import numpy as np 
-# Load data 
+
 faces = fetch_olivetti_faces() 
 X, y = faces.images, faces.target 
 X = X.reshape(-1, 64, 64, 1) 
 X = X.astype('float32') 
 y = to_categorical(y) 
-# Train-test split 
+ 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2) 
-# CNN Model 
+
 model = Sequential([ 
 Conv2D(32, (3,3), activation='relu', input_shape=(64,64,1)), 
 MaxPooling2D((2,2)), 
