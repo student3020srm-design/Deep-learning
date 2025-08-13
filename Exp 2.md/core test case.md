@@ -41,7 +41,6 @@ for idx, expected in zip(test_indices, expected_labels):
     predictions.append(pred)
     correct_list.append("Y" if pred == expected else "N")
 
-# Create DataFrame
 df = pd.DataFrame({
     "Input Digit Image": [f"Image of {expected}" for expected in expected_labels],
     "Expected Label": expected_labels,
@@ -49,7 +48,6 @@ df = pd.DataFrame({
     "Correct (Y/N)": correct_list
 })
 
-# Display the results table
 df
 
 OUTPUT:
