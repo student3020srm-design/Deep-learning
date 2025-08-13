@@ -28,4 +28,5 @@ plt.grid(True)
 plt.show()
 
 Output:
-![1000111169](https://github.com/user-attachments/assets/2135c518-5522-431a-b9c9-54ea422e3e1b)
+<img width="709" height="644" alt="Screenshot 2025-08-06 112136" src="https://github.com/user-attachments/assets/4869491a-e502-4a07-bd5e-1632d5766f91" />
+
