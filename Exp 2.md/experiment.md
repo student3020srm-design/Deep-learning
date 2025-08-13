@@ -23,13 +23,13 @@ y_test))
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Show the second image in the test set
+
 index = 1  # Python is zero-based, so 1 means "second image"
 plt.imshow(X_test[index].reshape(28, 28), cmap='gray')
 plt.axis('off')
 plt.show()
 
-# Predict the label for the second image
+
 prediction = model.predict(np.expand_dims(X_test[index], axis=0))
 predicted_label = np.argmax(prediction)
 
