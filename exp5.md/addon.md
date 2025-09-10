@@ -54,3 +54,6 @@ model.fit(
 
 loss, accuracy = model.evaluate(X_test, y_test)
 print(f"Test Loss: {loss:.4f}, Test Accuracy: {accuracy:.4f}")
+output:
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e4d665d3-ef0c-43dd-acc3-32c26bb9ead6" />
+
