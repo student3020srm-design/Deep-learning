@@ -1,4 +1,4 @@
-rom keras.models import Model
+from keras.models import Model
 from keras.layers import Input, Embedding, Bidirectional, LSTM, TimeDistributed, Dense
 import numpy as np
 input_layer = Input(shape=(max_len,))
